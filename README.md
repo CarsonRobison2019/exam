@@ -280,7 +280,7 @@ public class Main {
                 System.out.println("your profit is");
                 System.out.println(suppliesall - sales);
                 
-                
+             
             } else if (suppliesamount == 2) {
                 System.out.println("how many/much extra did you get");
                 supply1a = bob.nextDouble();
@@ -518,8 +518,614 @@ public class Main {
                 System.out.println("your profit is");
                 System.out.println(suppliesall - sales);
             }
-             else if (days==2){
+             else if (days==3){
         System.out.println("how may extra supplies are there? (besides lemons cups sugar) (5 max)");
+            suppliesamount = bob.nextDouble();
+            if (suppliesamount == 1) {
+                System.out.println("how many/much extra did you get");
+                supply1a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply1per = bob.nextDouble();
+                supply1t = (supply1a * supply1per);
+                System.out.println("how many lemons did you buy");
+                lemons = bob.nextDouble();
+                System.out.println("what was the price per lemon");
+                perlemons = bob.nextDouble();
+                lemonstotal = (lemons * perlemons);
+                System.out.println("how many pounds of sugar did you buy");
+                sugar = bob.nextDouble();
+                System.out.println("what was the price per pound");
+                sugarpounds = bob.nextDouble();
+                sugartotal = (sugar * sugarpounds);
+                System.out.println("how many cups did you buy");
+                cups = bob.nextDouble();
+                System.out.println("how much was each cup that you bought");
+                percup = bob.nextDouble();
+                cupstotal = (cups * percup);
+                
+                
+                System.out.println("how many cups did you sell on day 1?");
+                cupssold = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                cupsprice = bob.nextDouble();
+                day1t = (cupssold * cupsprice);
+                System.out.println("how many cups did you sell on day 2?");
+                day2s = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day2price = bob.nextDouble();
+                day2t = (day2s * day2price); 
+                System.out.println("how many cups did you sell on day 3?");
+                day3s= bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day3price = bob.nextDouble();
+                day3t = (day3s * day3price);
+                
+                suppliesall = lemonstotal + sugartotal + cupstotal + supply1t;
+                sales=(day1t+day2t+day3t);
+                System.out.println("your profit is");
+                System.out.println(suppliesall - sales);
+                
+                
+            } else if (suppliesamount == 2) {
+                System.out.println("how many/much extra did you get");
+                supply1a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply1per = bob.nextDouble();
+                supply1t = (supply1a * supply1per);
+                System.out.println("how many/much extra did you get");
+                supply2a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply2per = bob.nextDouble();
+                supply2t = (supply2a * supply2per);
+                System.out.println("how many lemons did you buy");
+                lemons = bob.nextDouble();
+                System.out.println("what was the price per lemon");
+                perlemons = bob.nextDouble();
+                lemonstotal = (lemons * perlemons);
+                System.out.println("how many pounds of sugar did you buy");
+                sugar = bob.nextDouble();
+                System.out.println("what was the price per pound");
+                sugarpounds = bob.nextDouble();
+                sugartotal = (sugar * sugarpounds);
+                System.out.println("how many cups did you buy");
+                cups = bob.nextDouble();
+                System.out.println("how much was each cup that you bought");
+                percup = bob.nextDouble();
+                cupstotal = (cups * percup);
+                
+                
+                System.out.println("how many cups did you sell on day 1?");
+                cupssold = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                cupsprice = bob.nextDouble();
+                day1t = (cupssold * cupsprice);
+                System.out.println("how many cups did you sell on day 2?");
+                day2s = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day2price = bob.nextDouble();
+                day2t = (day2s * day2price); 
+                System.out.println("how many cups did you sell on day 3?");
+                day3s= bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day3price = bob.nextDouble();
+                day3t = (day3s * day3price);
+                
+                
+            } else if (suppliesamount == 3) {
+                System.out.println("how many/much extra did you get");
+                supply1a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply1per = bob.nextDouble();
+                supply1t = (supply1a * supply1per);
+                System.out.println("how many/much extra did you get");
+                supply2a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply2per = bob.nextDouble();
+                supply2t = (supply2a * supply2per);
+                System.out.println("how many/much extra did you get");
+                supply3a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply3per = bob.nextDouble();
+                supply3t = (supply3a * supply3per);
+                System.out.println("how many lemons did you buy");
+                lemons = bob.nextDouble();
+                System.out.println("what was the price per lemon");
+                perlemons = bob.nextDouble();
+                lemonstotal = (lemons * perlemons);
+                System.out.println("how many pounds of sugar did you buy");
+                sugar = bob.nextDouble();
+                System.out.println("what was the price per pound");
+                sugarpounds = bob.nextDouble();
+                sugartotal = (sugar * sugarpounds);
+                System.out.println("how many cups did you buy");
+                cups = bob.nextDouble();
+                System.out.println("how much was each cup that you bought");
+                percup = bob.nextDouble();
+                cupstotal = (cups * percup);
+                
+                
+                System.out.println("how many cups did you sell on day 1?");
+                cupssold = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                cupsprice = bob.nextDouble();
+                day1t = (cupssold * cupsprice);
+                System.out.println("how many cups did you sell on day 2?");
+                day2s = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day2price = bob.nextDouble();
+                day2t = (day2s * day2price); 
+                System.out.println("how many cups did you sell on day 3?");
+                day3s= bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day3price = bob.nextDouble();
+                day3t = (day3s * day3price);
+                
+                
+            } else if (suppliesamount == 4) {
+                System.out.println("how many/much extra did you get");
+                supply1a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply1per = bob.nextDouble();
+                supply1t = (supply1a * supply1per);
+                System.out.println("how many/much extra did you get");
+                supply2a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply2per = bob.nextDouble();
+                supply2t = (supply2a * supply2per);
+                System.out.println("how many/much extra did you get");
+                supply3a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply3per = bob.nextDouble();
+                supply3t = (supply3a * supply3per);
+                System.out.println("how many/much extra did you get");
+                supply4a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply4per = bob.nextDouble();
+                supply4t = (supply4a * supply4per);
+                System.out.println("how many lemons did you buy");
+                lemons = bob.nextDouble();
+                System.out.println("what was the price per lemon");
+                perlemons = bob.nextDouble();
+                lemonstotal = (lemons * perlemons);
+                System.out.println("how many pounds of sugar did you buy");
+                sugar = bob.nextDouble();
+                System.out.println("what was the price per pound");
+                sugarpounds = bob.nextDouble();
+                sugartotal = (sugar * sugarpounds);
+                System.out.println("how many cups did you buy");
+                cups = bob.nextDouble();
+                System.out.println("how much was each cup that you bought");
+                percup = bob.nextDouble();
+                cupstotal = (cups * percup);
+                
+                
+                System.out.println("how many cups did you sell on day 1?");
+                cupssold = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                cupsprice = bob.nextDouble();
+                day1t = (cupssold * cupsprice);
+                System.out.println("how many cups did you sell on day 2?");
+                day2s = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day2price = bob.nextDouble();
+                day2t = (day2s * day2price); 
+                System.out.println("how many cups did you sell on day 3?");
+                day3s= bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day3price = bob.nextDouble();
+                day3t = (day3s * day3price);
+                
+                
+            } else if (suppliesamount == 5) {
+                System.out.println("how many/much extra did you get");
+                supply1a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply1per = bob.nextDouble();
+                supply1t = (supply1a * supply1per);
+                System.out.println("how many/much extra did you get");
+                supply2a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply2per = bob.nextDouble();
+                supply2t = (supply2a * supply2per);
+                System.out.println("how many/much extra did you get");
+                supply3a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply3per = bob.nextDouble();
+                supply3t = (supply3a * supply3per);
+                System.out.println("how many/much extra did you get");
+                supply4a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply4per = bob.nextDouble();
+                supply4t = (supply4a * supply4per);
+                System.out.println("how many/much extra did you get");
+                supply5a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply5per = bob.nextDouble();
+                supply5t = (supply5a * supply5per);
+                System.out.println("how many lemons did you buy");
+                lemons = bob.nextDouble();
+                System.out.println("what was the price per lemon");
+                perlemons = bob.nextDouble();
+                lemonstotal = (lemons * perlemons);
+                System.out.println("how many pounds of sugar did you buy");
+                sugar = bob.nextDouble();
+                System.out.println("what was the price per pound");
+                sugarpounds = bob.nextDouble();
+                sugartotal = (sugar * sugarpounds);
+                System.out.println("how many cups did you buy");
+                cups = bob.nextDouble();
+                System.out.println("how much was each cup that you bought");
+                percup = bob.nextDouble();
+                cupstotal = (cups * percup);
+                
+                
+                System.out.println("how many cups did you sell on day 1?");
+                cupssold = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                cupsprice = bob.nextDouble();
+                day1t = (cupssold * cupsprice);
+                System.out.println("how many cups did you sell on day 2?");
+                day2s = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day2price = bob.nextDouble();
+                day2t = (day2s * day2price); 
+                System.out.println("how many cups did you sell on day 3?");
+                day3s= bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day3price = bob.nextDouble();
+                day3t = (day3s * day3price);
+                
+                
+            } else if (suppliesamount == 0) {
+                System.out.println("how many lemons did you buy");
+                lemons = bob.nextDouble();
+                System.out.println("what was the price per lemon");
+                perlemons = bob.nextDouble();
+                lemonstotal = (lemons * perlemons);
+                System.out.println("how many pounds of sugar did you buy");
+                sugar = bob.nextDouble();
+                System.out.println("what was the price per pound");
+                sugarpounds = bob.nextDouble();
+                sugartotal = (sugar * sugarpounds);
+                System.out.println("how many cups did you buy");
+                cups = bob.nextDouble();
+                System.out.println("how much was each cup that you bought");
+                percup = bob.nextDouble();
+                cupstotal = (cups * percup);
+                System.out.println("how many cups did you sell on day 1?");
+                cupssold = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                cupsprice = bob.nextDouble();
+                day1t = (cupssold * cupsprice);
+                System.out.println("how many cups did you sell on day 2?");
+                day2s = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day2price = bob.nextDouble();
+                day2t = (day2s * day2price); 
+                System.out.println("how many cups did you sell on day 3?");
+                day3s= bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day3price = bob.nextDouble();
+                day3t = (day3s * day3price);
+            }
+        }
+        else if (days==4){
+        System.out.println("how may extra supplies are there? (besides lemons cups sugar) (5 max)");
+            suppliesamount = bob.nextDouble();
+            if (suppliesamount == 1) {
+                System.out.println("how many/much extra did you get");
+                supply1a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply1per = bob.nextDouble();
+                supply1t = (supply1a * supply1per);
+                System.out.println("how many lemons did you buy");
+                lemons = bob.nextDouble();
+                System.out.println("what was the price per lemon");
+                perlemons = bob.nextDouble();
+                lemonstotal = (lemons * perlemons);
+                System.out.println("how many pounds of sugar did you buy");
+                sugar = bob.nextDouble();
+                System.out.println("what was the price per pound");
+                sugarpounds = bob.nextDouble();
+                sugartotal = (sugar * sugarpounds);
+                System.out.println("how many cups did you buy");
+                cups = bob.nextDouble();
+                System.out.println("how much was each cup that you bought");
+                percup = bob.nextDouble();
+                cupstotal = (cups * percup);
+                
+                
+               System.out.println("how many cups did you sell on day 1?");
+                cupssold = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                cupsprice = bob.nextDouble();
+                day1t = (cupssold * cupsprice);
+                System.out.println("how many cups did you sell on day 2?");
+                day2s = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day2price = bob.nextDouble();
+                day2t = (day2s * day2price); 
+                System.out.println("how many cups did you sell on day 3?");
+                day3s= bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day3price = bob.nextDouble();
+                day3t = (day3s * day3price);
+                System.out.println("how many cups did you sell on day 4?");
+                day4s= bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day4price = bob.nextDouble();
+                day4t = (day4s * day4price);
+                
+             
+            } else if (suppliesamount == 2) {
+                System.out.println("how many/much extra did you get");
+                supply1a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply1per = bob.nextDouble();
+                supply1t = (supply1a * supply1per);
+                System.out.println("how many/much extra did you get");
+                supply2a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply2per = bob.nextDouble();
+                supply2t = (supply2a * supply2per);
+                System.out.println("how many lemons did you buy");
+                lemons = bob.nextDouble();
+                System.out.println("what was the price per lemon");
+                perlemons = bob.nextDouble();
+                lemonstotal = (lemons * perlemons);
+                System.out.println("how many pounds of sugar did you buy");
+                sugar = bob.nextDouble();
+                System.out.println("what was the price per pound");
+                sugarpounds = bob.nextDouble();
+                sugartotal = (sugar * sugarpounds);
+                System.out.println("how many cups did you buy");
+                cups = bob.nextDouble();
+                System.out.println("how much was each cup that you bought");
+                percup = bob.nextDouble();
+                cupstotal = (cups * percup);
+                
+                
+                System.out.println("how many cups did you sell on day 1?");
+                cupssold = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                cupsprice = bob.nextDouble();
+                day1t = (cupssold * cupsprice);
+                System.out.println("how many cups did you sell on day 2?");
+                day2s = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day2price = bob.nextDouble();
+                day2t = (day2s * day2price); 
+                System.out.println("how many cups did you sell on day 3?");
+                day3s= bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day3price = bob.nextDouble();
+                day3t = (day3s * day3price);
+                System.out.println("how many cups did you sell on day 4?");
+                day4s= bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day4price = bob.nextDouble();
+                day4t = (day4s * day4price);
+                
+                
+            } else if (suppliesamount == 3) {
+                System.out.println("how many/much extra did you get");
+                supply1a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply1per = bob.nextDouble();
+                supply1t = (supply1a * supply1per);
+                System.out.println("how many/much extra did you get");
+                supply2a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply2per = bob.nextDouble();
+                supply2t = (supply2a * supply2per);
+                System.out.println("how many/much extra did you get");
+                supply3a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply3per = bob.nextDouble();
+                supply3t = (supply3a * supply3per);
+                System.out.println("how many lemons did you buy");
+                lemons = bob.nextDouble();
+                System.out.println("what was the price per lemon");
+                perlemons = bob.nextDouble();
+                lemonstotal = (lemons * perlemons);
+                System.out.println("how many pounds of sugar did you buy");
+                sugar = bob.nextDouble();
+                System.out.println("what was the price per pound");
+                sugarpounds = bob.nextDouble();
+                sugartotal = (sugar * sugarpounds);
+                System.out.println("how many cups did you buy");
+                cups = bob.nextDouble();
+                System.out.println("how much was each cup that you bought");
+                percup = bob.nextDouble();
+                cupstotal = (cups * percup);
+                
+                
+                System.out.println("how many cups did you sell on day 1?");
+                cupssold = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                cupsprice = bob.nextDouble();
+                day1t = (cupssold * cupsprice);
+                System.out.println("how many cups did you sell on day 2?");
+                day2s = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day2price = bob.nextDouble();
+                day2t = (day2s * day2price); 
+                System.out.println("how many cups did you sell on day 3?");
+                day3s= bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day3price = bob.nextDouble();
+                day3t = (day3s * day3price);
+                System.out.println("how many cups did you sell on day 4?");
+                day4s= bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day4price = bob.nextDouble();
+                day4t = (day4s * day4price);
+                
+                
+            } else if (suppliesamount == 4) {
+                System.out.println("how many/much extra did you get");
+                supply1a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply1per = bob.nextDouble();
+                supply1t = (supply1a * supply1per);
+                System.out.println("how many/much extra did you get");
+                supply2a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply2per = bob.nextDouble();
+                supply2t = (supply2a * supply2per);
+                System.out.println("how many/much extra did you get");
+                supply3a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply3per = bob.nextDouble();
+                supply3t = (supply3a * supply3per);
+                System.out.println("how many/much extra did you get");
+                supply4a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply4per = bob.nextDouble();
+                supply4t = (supply4a * supply4per);
+                System.out.println("how many lemons did you buy");
+                lemons = bob.nextDouble();
+                System.out.println("what was the price per lemon");
+                perlemons = bob.nextDouble();
+                lemonstotal = (lemons * perlemons);
+                System.out.println("how many pounds of sugar did you buy");
+                sugar = bob.nextDouble();
+                System.out.println("what was the price per pound");
+                sugarpounds = bob.nextDouble();
+                sugartotal = (sugar * sugarpounds);
+                System.out.println("how many cups did you buy");
+                cups = bob.nextDouble();
+                System.out.println("how much was each cup that you bought");
+                percup = bob.nextDouble();
+                cupstotal = (cups * percup);
+                
+                
+                System.out.println("how many cups did you sell on day 1?");
+                cupssold = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                cupsprice = bob.nextDouble();
+                day1t = (cupssold * cupsprice);
+                System.out.println("how many cups did you sell on day 2?");
+                day2s = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day2price = bob.nextDouble();
+                day2t = (day2s * day2price); 
+                System.out.println("how many cups did you sell on day 3?");
+                day3s= bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day3price = bob.nextDouble();
+                day3t = (day3s * day3price);
+                System.out.println("how many cups did you sell on day 4?");
+                day4s= bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day4price = bob.nextDouble();
+                day4t = (day4s * day4price);
+                
+                
+            } else if (suppliesamount == 5) {
+                System.out.println("how many/much extra did you get");
+                supply1a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply1per = bob.nextDouble();
+                supply1t = (supply1a * supply1per);
+                System.out.println("how many/much extra did you get");
+                supply2a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply2per = bob.nextDouble();
+                supply2t = (supply2a * supply2per);
+                System.out.println("how many/much extra did you get");
+                supply3a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply3per = bob.nextDouble();
+                supply3t = (supply3a * supply3per);
+                System.out.println("how many/much extra did you get");
+                supply4a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply4per = bob.nextDouble();
+                supply4t = (supply4a * supply4per);
+                System.out.println("how many/much extra did you get");
+                supply5a = bob.nextDouble();
+                System.out.println("how much was each extra");
+                supply5per = bob.nextDouble();
+                supply5t = (supply5a * supply5per);
+                System.out.println("how many lemons did you buy");
+                lemons = bob.nextDouble();
+                System.out.println("what was the price per lemon");
+                perlemons = bob.nextDouble();
+                lemonstotal = (lemons * perlemons);
+                System.out.println("how many pounds of sugar did you buy");
+                sugar = bob.nextDouble();
+                System.out.println("what was the price per pound");
+                sugarpounds = bob.nextDouble();
+                sugartotal = (sugar * sugarpounds);
+                System.out.println("how many cups did you buy");
+                cups = bob.nextDouble();
+                System.out.println("how much was each cup that you bought");
+                percup = bob.nextDouble();
+                cupstotal = (cups * percup);
+                
+                
+                SSystem.out.println("how many cups did you sell on day 1?");
+                cupssold = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                cupsprice = bob.nextDouble();
+                day1t = (cupssold * cupsprice);
+                System.out.println("how many cups did you sell on day 2?");
+                day2s = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day2price = bob.nextDouble();
+                day2t = (day2s * day2price); 
+                System.out.println("how many cups did you sell on day 3?");
+                day3s= bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day3price = bob.nextDouble();
+                day3t = (day3s * day3price);
+                System.out.println("how many cups did you sell on day 4?");
+                day4s= bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day4price = bob.nextDouble();
+                day4t = (day4s * day4price);
+                
+                
+            } else if (suppliesamount == 0) {
+                System.out.println("how many lemons did you buy");
+                lemons = bob.nextDouble();
+                System.out.println("what was the price per lemon");
+                perlemons = bob.nextDouble();
+                lemonstotal = (lemons * perlemons);
+                System.out.println("how many pounds of sugar did you buy");
+                sugar = bob.nextDouble();
+                System.out.println("what was the price per pound");
+                sugarpounds = bob.nextDouble();
+                sugartotal = (sugar * sugarpounds);
+                System.out.println("how many cups did you buy");
+                cups = bob.nextDouble();
+                System.out.println("how much was each cup that you bought");
+                percup = bob.nextDouble();
+                cupstotal = (cups * percup);
+                System.out.println("how many cups did you sell on day 1?");
+                cupssold = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                cupsprice = bob.nextDouble();
+                day1t = (cupssold * cupsprice);
+                System.out.println("how many cups did you sell on day 2?");
+                day2s = bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day2price = bob.nextDouble();
+                day2t = (day2s * day2price); 
+                System.out.println("how many cups did you sell on day 3?");
+                day3s= bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day3price = bob.nextDouble();
+                day3t = (day3s * day3price);
+                System.out.println("how many cups did you sell on day 4?");
+                day4s= bob.nextDouble();
+                System.out.println("what was the price of each cup sold?");
+                day4price = bob.nextDouble();
+                day4t = (day4s * day4price); 
+            }
+             else if (days==3){
+            System.out.println("how may extra supplies are there? (besides lemons cups sugar) (5 max)");
             suppliesamount = bob.nextDouble();
             if (suppliesamount == 1) {
                 System.out.println("how many/much extra did you get");
